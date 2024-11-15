@@ -1,0 +1,23 @@
+.brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.brand__img__container {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.brand__img__container img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
